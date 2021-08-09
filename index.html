@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div id="title">
+    <h1>MICHAEL</h1>
+    <h1>TANTOWEN</h1>
+  </div>
+  <div id="btn">
+    <button id="btn-profile" onclick="buttonClicked()">Visit Profile</button>
+  </div>
+
+  <section id="main">
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="profile">Profile</a>
+        </li>
+        <li>
+          <a href="project">Project Showcase</a>
+        </li>
+        <li>
+          <a>Contact</a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="showcase">
+    <div id="profile" class="container-content">
+      <img src="assets/images/profile.png" alt="Profile Picture">
+      <div class="name-card">
+        <h1>Michael Tantowen</h1>
+        <h1>Computer Science Student</h1>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequatur quisquam error quaerat, inventore repudiandae in velit omnis, obcaecati aperiam a reiciendis illo quia accusantium?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ea laboriosam non iste necessitatibus mollitia inventore dicta ut, est asperiores nemo nam reiciendis enim ab repudiandae dolore assumenda exercitationem beatae, quo aliquid! Inventore, expedita corrupti!</p>
+      </div>
+    </div>
+
+    <div id="project" class="container container-content">
+      <div class="library">
+        <div class="card">
+          <a href="https://compassionate-ritchie-bdab4a.netlify.app/" target="_blank">
+            <img src="assets/images/TodoList.png" alt="Todolist App with Javascript">
+          </a>
+          <h3>Todo list with Javascript and Local Storage</h3>
+        </div>
+        <div class="card">
+          <a href="assets/JS-Calculator/index.html" target="_blank">
+            <img src="assets/images/Calculator.png" alt="Calculator App with Javascript">
+          </a>
+          <h3>Calculator with Javascript<br/>Support Night Mode and Light Mode</h3>
+        </div>
+        <div class="card">
+          <a href="assets/Bootstrap-WeBuild/index.html" target="_blank">
+            <img src="assets/images/bootstrap-landingPage.png" alt="Landing Page using Bootstrap 4">
+          </a>
+          <h3>Landing Page using Bootstrap 4</h3>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

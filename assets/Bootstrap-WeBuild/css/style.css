@@ -1,0 +1,23 @@
+@font-face {
+  font-family: gotham;
+  src: url(../assets/Gotham-Book-Font/Gotham\ Book\ Font.otf);
+}
+
+body {
+  font-family: gotham !important;
+}
+
+.thumbnail h1 {
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: 25px;
+  padding: 5px 25px;
+}
+
+.how-to-img {
+  max-width: 40vw;
+  max-height: 30vh;
+}
+
