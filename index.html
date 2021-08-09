@@ -26,7 +26,7 @@
           <a href="project">Project Showcase</a>
         </li>
         <li>
-          <a>Contact</a>
+          <a href="contactus">Contact</a>
         </li>
       </ul>
     </nav>
@@ -70,6 +70,33 @@
             </a>
             <h3>Online Store UI with Bootstrap 4</h3>
           </div>
+        </div>
+      </div>
+
+      <div id="contactus" class="container container-content">
+        <div id="contact">
+          <div id="ctc-title">
+            <img src="assets/images/contact.png" alt="Contact Us">
+            <h3>Contact Us</h3>
+          </div>
+          
+          <form id="ctc-form" name="contact" method="POST" data-netlify="true">
+            <div class="form-group">
+              <input type="text" name="name" required  />
+              <label>Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" required  />
+              <label>Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" name="message" required  />
+              <label>Message</label>
+            </div>
+            <p>
+              <button type="submit" id="ctc-btn">Send</button>
+            </p>
+          </form>
         </div>
       </div>
     </div>

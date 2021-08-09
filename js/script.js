@@ -72,6 +72,12 @@ function project() {
   });
 };
 
+function contactus() {
+  $("#contactus").velocity("transition.flipYIn", {
+    duration: 700
+  });
+};
+
 $(document).ready(function() {
   introAnimation();
 });
