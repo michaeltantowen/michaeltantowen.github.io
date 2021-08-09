@@ -1,0 +1,177 @@
+body {
+  font-family: montserrat;
+  font-weight: 400;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #171717;
+  border-bottom: 1px solid #333;
+}
+
+.cart span {
+  color: #F9B234;
+}
+
+.nav-item.active a {
+  color: #F9B234 !important;
+  font-weight: 600;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+/* Carousel */
+.carousel {
+  height: 450px;
+  background-color: #171717;
+  color: white;
+}
+
+.carousel h1 {
+  font-family: lora;
+}
+
+.carousel p {
+  font-weight: 200;
+}
+
+/* Products */
+
+.products h3, .designers h3, .similar-products h3, .cart-header h3, .checkout-modals h3, .category h3 {
+  font-family: lora;
+  color: #1B2690;
+  font-weight: bold;
+}
+
+.products p, .designers p, .similar-products p, .cart-header p, .checkout-modals p, .category p {
+  font-weight: 200;
+  color: #B7B7B7;
+}
+
+.figure-caption h5 {
+  color: #171717;
+}
+
+.figure-img {
+  position: relative;
+}
+
+.figure-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+  opacity: 1;
+}
+
+/* footer */
+.footer-text p {
+ color: #B7B7B7;
+}
+
+.footer-text span {
+  color: #171717;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+  margin-top: 100px;
+}
+
+.cart-breadcrumb {
+  margin-top: 10px;
+}
+
+/* single product */
+.product-thumbnail-container {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-60px);
+}
+
+.product-thumbnail-container:hover {
+  text-decoration: none;
+}
+
+.btn-product {
+  margin: 50px 0;
+  border-bottom: 1px solid #EAEAEF;
+  padding-bottom: 30px;
+}
+
+.btn-product .btn {
+  display: block;
+  margin: 10px 0;
+}
+
+.design-by h5 {
+  font-size: 14px;
+  font-weight: 200;
+  color: #B7B7B7;
+}
+
+.design-by h4 {
+  font-size: 18px;
+  color: #171717;
+}
+
+.design-by p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #171717;
+}
+
+/* product description & review */
+.product-description {
+  height: 350px;
+  background-color: #F6F7FB;
+}
+.product-description .tab-content {
+  background-color: #FFF;
+  border: 1px solid #DEE2E6;
+  border-top: 0;  
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.product-description .tab-content p {
+  font-weight: 200;
+  color: #333;
+}
+
+.product-review h5 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.product-review p {
+  font-size: 14px;
+}
+
+.product-review {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.similar-products {
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+/* Checkout Cart */
+.checkout-detail {
+  background-color: #F6F7FB;
+  border: 1px solid #EAEAEF;
+  color: #171717;
+}

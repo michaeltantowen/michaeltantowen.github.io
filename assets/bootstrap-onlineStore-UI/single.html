@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="css/all.css" />
+
+		<!-- My CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- Google Fonts -->
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+			@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+		</style>
+
+    <link rel="shortcut icon" href="Asset/images/logo_small.png">
+
+		<title>Hefa Store</title>
+	</head>
+	<body>
+		<!-- Start Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="Asset/images/logo_small.png" alt="Hefa Store" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav text-uppercase mx-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="category.html">Category</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Designer</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+					</ul>
+					<a class="nav-link text-white cart" href="#"
+						><i class="fas fa-shopping-cart"></i>My Cart(<span>12</span>)</a
+					>
+				</div>
+			</div>
+		</nav>
+		<!-- End Navbar -->
+
+    <!-- Start Breadcrumbs -->
+    <div class="container mt-5">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-transparent pl-0">
+          <li class="breadcrumb-item"><a href="#">Category</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Single Product</li>
+        </ol>
+      </nav>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <!-- Start Product Single -->
+    <section class="single-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <figure class="figure">
+              <img src="Asset/images/single-products/1.png" class="figure-img img-fluid">
+              <figcaption class="figure-caption product-thumbnail-container d-flex justify-content-between">
+                <a href="">
+                  <img src="Asset/images/single-products/thumbnails/1.png" alt="">
+                </a>
+                <a href="">
+                  <img src="Asset/images/single-products/thumbnails/2.png" alt="">
+                </a>
+                <a href="">
+                  <img src="Asset/images/single-products/thumbnails/3.png" alt="">
+                </a>
+                <a href="">
+                  <img src="Asset/images/single-products/thumbnails/4.png" alt="">
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4">
+            <h3>Jeans: Giordano XI</h3>
+            <p class="text-muted">IDR 290.000.000</p>
+            <button type="button" class="btn" style="background-color: #EAEAEF; color: white;"><i class="fas fa-minus-circle"></i></button>
+            <span>20</span>
+            <button type="button" class="btn btn-success" ><i class="fas fa-plus-circle"></i></button>
+            <div class="btn-product">
+              <a href="cart.html" class="btn btn-warning text-white">Add To Cart</a>
+              <a href="" class="btn" style="background-color: #EAEAEF; color: #ADADAD;">Add To Wishlist</a>
+            </div>
+
+            <h5>Design by</h5>
+            <div class="design-by">
+              <div class="row">
+                <div class="col-2">
+                  <img src="Asset/images/single-products/3.png" alt="">
+                </div>
+                <div class="col">
+                  <h4>Anne Mortgery</h4>
+                  <p>14.2K <span>Follower</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+    <!-- End Product Single -->
+
+    <!-- Start Product Description & review -->
+    <section class="product-description p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Product Descriptions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Reviews (20)</a>
+              </li>
+            </ul>
+            <div class="tab-content p-3" id="myTabContent">
+              <div class="tab-pane fade show active text-justify product-review" id="description" role="tabpanel" aria-labelledby="home-tab">
+                <p>Payday is finally here and you’ve got some extra cash to help you  stock up your summer 
+                wardrobe. Not sure where to start? ASOS Stylist Beccy Goldsworthy is here with the best of what’s 
+                new, from 80s-inspired tracksuits to some seriously fresh trainers. Check out her picks below 
+                and watch the video for more.</p>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec felis metus. Vivamus eu urna 
+                tempor, pretium erat quis, volutpat eros. Cras consectetur dolor at venenatis feugiat. Fusce 
+                nunc risus, finibus eget augue ac, ornare gravida turpis. Morbi consequat, nisi sit amet viverra 
+                feugiat, lacus mauris ornare erat, at pharetra odio dolor id elit. Pellentesque eu aliquet ex. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div class="tab-pane fade product-review" id="review" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="Asset/images/single-products/2.png">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p>Produknya bags dan banana juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="Asset/images/single-products/2.png">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p>Produknya bags dan banana juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="Asset/images/single-products/2.png">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p>Produknya bags dan banana juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="Asset/images/single-products/2.png">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p>Produknya bags dan banana juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="Asset/images/single-products/2.png">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p>Produknya bags dan banana juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="Asset/images/single-products/2.png">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p>Produknya bags dan banana juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="Asset/images/single-products/2.png">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p>Produknya bags dan banana juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="Asset/images/single-products/2.png">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p>Produknya bags dan banana juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 d-none d-md-block">
+                    <img src="Asset/images/single-products/2.png">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p>Produknya bags dan banana juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Product Description & review -->
+
+    <!-- Start similar products -->
+    <section class="similar-products">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Similar Products</h3>
+            <p>Pakaian pelengkap produk diatas.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <figure class="figure">
+              <img src="Asset/images/single-products/similar/1.png" class="figure-img img-fluid">
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h4 style="font-size: large;">Hatty Bomb</h4>
+                    <p>Disc 20%</p>
+                  </div>
+                  <div class="col d-flex align-items-center justify-content-end">
+                    <p>IDR 209.000</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure class="figure">
+              <img src="Asset/images/single-products/similar/1.png" class="figure-img img-fluid">
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h4 style="font-size: large;">Hatty Bomb</h4>
+                    <p>Disc 20%</p>
+                  </div>
+                  <div class="col d-flex align-items-center justify-content-end">
+                    <p>IDR 209.000</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure class="figure">
+              <img src="Asset/images/single-products/similar/1.png" class="figure-img img-fluid">
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h4 style="font-size: large;">Hatty Bomb</h4>
+                    <p>Disc 20%</p>
+                  </div>
+                  <div class="col d-flex align-items-center justify-content-end">
+                    <p>IDR 209.000</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End similar products -->
+
+		<!-- Start Footer -->
+		<footer class="border-top pt-5">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-1">
+						<img src="Asset/images/logo_small.png" />
+					</div>
+					<div class="col-4 text-right">
+						<a href=""><img src="Asset/images/socials/fb.png" alt="" /></a>
+						<a href=""><img src="Asset/images/socials/twitter.png" alt="" /></a>
+						<a href=""><img src="Asset/images/socials/ig.png" alt="" /></a>
+					</div>
+				</div>
+				<div class="row pb-5 mt-3 justify-content-between">
+					<div class="col-5 footer-text">
+						<p>All right reserved by <span>Hefa Store</span> copy right 2019</p>
+					</div>
+					<div class="col-5">
+						<nav class="nav text-uppercase justify-content-end">
+							<a class="nav-link p-0 text-primary active" href="#">jobs</a>
+							<a class="nav-link p-0 text-primary" href="#">developer</a>
+							<a class="nav-link p-0 text-primary" href="#">terms</a>
+							<a class="nav-link p-0 text-primary" href="#">privacy policy</a>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/all.js"></script>
+	</body>
+</html>
