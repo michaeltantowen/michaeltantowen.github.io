@@ -26,7 +26,7 @@ function buttonClicked() {
     duration:1000,
     complete: function() {
       $("#title").addClass("phone").html("Michael Tantowen").velocity({
-        "font-size":"20px", "top":"4%", "left":"17%"},
+        "font-size":"20px", "top":"5%", "left":"17%"},
         {duration:800,
          complete: function() {
            showMenu();

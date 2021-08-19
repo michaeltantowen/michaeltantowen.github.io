@@ -326,3 +326,58 @@ body {
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-y: scroll;
+  }
+  #title h1 {
+    font-size: 40px;
+    margin-top: -25px;
+  }
+  .phone {
+    margin-top: 30px;
+  }
+  #profile img {
+    display: none;
+  }
+  #profile div p {
+    display: none;
+  }
+  .name-card {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    transform: translateX(-55%);
+    margin-top: 30px;
+    padding: 0;
+  }
+  .name-card h1 {
+    font-size: 30px;
+  }
+  
+  .card {
+    height: 130vh;
+  }
+  .card a img {
+    height: 100vh;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  #ctc-title img {
+    display: none;
+  }
+  #ctc-title h3 {
+    font-size: 40px;
+  }
+  .form-group input {
+    width: 45%;
+    margin: auto;
+  }
+  #ctc-form p {
+    text-align: center;
+  }
+}
