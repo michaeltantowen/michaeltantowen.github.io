@@ -290,6 +290,9 @@ body {
   #profile img {
     display: none;
   }
+  .phone {
+    display: none;
+  }
   .name-card {
     position: relative;
     text-align: center;
@@ -312,8 +315,11 @@ body {
   #ctc-title img {
     display: none;
   }
+  #ctc-title h3 {
+    font-size: 40px;
+  }
   .form-group input {
-    width: 80%;
+    width: 60%;
     margin: auto;
   }
   #ctc-form p {

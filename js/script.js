@@ -25,7 +25,7 @@ function buttonClicked() {
   $("#btn-profile").velocity("transition.flipBounceYOut", {
     duration:1000,
     complete: function() {
-      $("#title").html("Michael Tantowen").velocity({
+      $("#title").addClass("phone").html("Michael Tantowen").velocity({
         "font-size":"20px", "top":"4%", "left":"17%"},
         {duration:800,
          complete: function() {
