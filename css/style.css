@@ -117,8 +117,8 @@ body {
 }
 
 .card {
-  max-width: 300px;
-  max-height: 50vh;
+  width: 300px;
+  height: 55vh;
   padding: 8px;
   border-radius: 8px;
   background-color: gold;
@@ -140,8 +140,8 @@ body {
 }
 
 .card a img {
-  max-width: 300px;
-  max-height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .card h3 {
@@ -255,6 +255,7 @@ body {
   border: 3px solid gold;
   border-radius: 8px;
   font-weight: 600;
+  padding: 10px 50px;
 }
 
 #ctc-btn:hover {
@@ -280,4 +281,42 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #424242;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #title h1 {
+    font-size: 40px;
+  }
+  #profile img {
+    display: none;
+  }
+  .name-card {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    transform: translateX(-55%);
+    margin-top: 300px;
+    padding: 0;
+  }
+  .name-card h1 {
+    font-size: 30px;
+  }
+  #profile div p {
+    display: none;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  #ctc-title img {
+    display: none;
+  }
+  .form-group input {
+    width: 80%;
+    margin: auto;
+  }
+  #ctc-form p {
+    text-align: center;
+  }
 }

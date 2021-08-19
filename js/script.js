@@ -26,7 +26,7 @@ function buttonClicked() {
     duration:1000,
     complete: function() {
       $("#title").html("Michael Tantowen").velocity({
-        "font-size":"20px", "top":"4%", "left":"8%"},
+        "font-size":"20px", "top":"4%", "left":"17%"},
         {duration:800,
          complete: function() {
            showMenu();
@@ -66,9 +66,9 @@ function profile() {
 };
 
 function project() {
-  $("#project").velocity("transition.flipYIn", {
-    duration: 1500,
-    stagger: 1000
+  $(".card").velocity("transition.flipYIn", {
+    duration: 800,
+    stagger: 800
   });
 };
 
